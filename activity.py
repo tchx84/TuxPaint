@@ -21,9 +21,6 @@ class TuxPaintLauncher(Activity):
             options.extend(('--savedir', doc_path))
         proc = subprocess.Popen(options)
 
-        # Stay alive with a blank window mapped for at least 60 seconds
-        # so that the shell knows that we launched
-        glib.timeout_add_seconds(60, gtk.main_quit)
         # but get rid of that window if the child exits beforehand
         glib.child_watch_add(proc.pid, gtk.main_quit)
 
