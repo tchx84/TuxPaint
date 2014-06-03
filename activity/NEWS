@@ -1,0 +1,26 @@
+v6 2011-10-15
+~~~~~~~~~~~~~
+- Add thumbs for starter images to speed up "New" dialog
+- Support thumbs for stamps to speed up stamps browsing
+
+v5 2010-06-10
+~~~~~~~~~~~~~
+* Revert save button to save current image (not keep)
+* Revert open button to import image from the Journal
+* Save image preview in Journal objects
+* Set correct MIME type for created Journal objects
+* List of MIME types supported my activity
+
+v4 2010-05-12
+~~~~~~~~~~~~~
+* Update tuxpaint to 0.9.22 version
+* Initial Journal integration
+* Tuxpaint without stamp to make bundle as minimal as possible
+  stamps will be added as optional dependency after implementing
+  this feature in 0install
+
+v3 2009-05-31
+~~~~~~~~~~~~~
+* Pick up existed TuxPaint bundle
+* Update tuxpaint to 0.9.20 version
+* Include x86_64 binaries to bundle

@@ -1,0 +1,16 @@
+[Activity]
+implement = tuxpaint
+name      = Tux Paint
+summary   = Drawing program designed for young children
+description = Tux Paint is a free, award-winning drawing program for children
+            ages 3 to 12 (for example, preschool and K-6). It combines an
+            easy-to-use interface, fun sound effects, and an encouraging
+            cartoon mascot who guides children as they use the program.
+license   = GPLv2
+homepage  = http://www.tuxpaint.org/
+category  = Education; Art
+icon      = activity-icon
+exec      = sugar-activity activity.TuxPaintLauncher
+mime_types = image/bmp;image/gif;image/jpeg;image/png;image/tiff
+activity_version = 6.1
+bundle_id = org.tuxpaint
